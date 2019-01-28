@@ -70,4 +70,9 @@ header {
   margin-top: 5em;
 }
 
-
+@media only screen and (max-width: 600px) {
+  #social p {
+    width: 100%;
+    text-align: center !important;
+  }
+}
