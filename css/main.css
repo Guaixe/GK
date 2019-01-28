@@ -1,3 +1,73 @@
+@font-face {
+  font-family: Static;
+  src: url(../fonts/Static.otf);
+}
+@font-face {
+  font-family: CBYG;
+  src: url(../fonts/CoveredByYourGrace.ttf);
+}
+@font-face {
+  font-family: Bison;
+  src: url(../fonts/Bison-Bold.ttf);
+}
+
 body {
   background: #eaebef;
+  text-align: center
 }
+h2 {
+  color: #d91258;
+  font-family: Bison;
+  font-size: 2.5rem;
+  letter-spacing: .2em;
+  margin-bottom: .5em;
+}
+h3 {
+  color: #c34470;
+  font-family: Static;
+  font-size: 1.5rem;
+  margin: 0;
+}
+h4 {
+  color: #ab1149;
+  font-family: Bison;
+  font-size: 2rem;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+#social p {
+  text-align: left;
+  width: 40%;
+  display: inline-block;
+}
+#social p.left {
+  text-align: right;
+}
+p {
+  color: #ab1149;
+  font-family: CBYG;
+  font-size: 1.8rem;
+}
+img {
+  vertical-align: middle;
+}
+footer {
+  margin-top: 3em;
+}
+footer a, footer p {
+  color: grey;
+  font-family: Static;
+  margin: .3em;
+}
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.sameWidth {
+  width: 50%;
+}
+header {
+  margin-top: 5em;
+}
+
+
