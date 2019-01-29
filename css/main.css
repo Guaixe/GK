@@ -7,8 +7,8 @@
   src: url(../fonts/CoveredByYourGrace.ttf);
 }
 @font-face {
-  font-family: Bison;
-  src: url(../fonts/Bison-Bold.ttf);
+  font-family: Vision;
+  src: url(../fonts/Vision.otf);
 }
 
 body {
@@ -17,10 +17,11 @@ body {
 }
 h2 {
   color: #d91258;
-  font-family: Bison;
+  font-family: Vision;
   font-size: 2.5rem;
-  letter-spacing: .2em;
+  letter-spacing: .15em;
   margin-bottom: .5em;
+  text-transform: uppercase;
 }
 h3 {
   color: #c34470;
@@ -30,10 +31,11 @@ h3 {
 }
 h4 {
   color: #ab1149;
-  font-family: Bison;
+  font-family: Vision;
   font-size: 2rem;
   margin-top: .5em;
   margin-bottom: 1em;
+  text-transform: uppercase;
 }
 #social p {
   text-align: left;
